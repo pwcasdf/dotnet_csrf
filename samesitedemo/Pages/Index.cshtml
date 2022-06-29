@@ -1,0 +1,31 @@
+﻿@page
+@using Microsoft.AspNetCore.Http
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <form method="post" asp-page="Index">
+        <h1 class="display-4">Cookies in Browswer</h1>
+        <p id="cookies"/>
+
+        <h1 class="display-4">Cookies in Request</h1>
+        <input type="submit" value="Request" asp-page-handler="Request"/>
+        <p>@Model.ReturnCookie</p>
+    </form>
+</div>
+
+<script>
+    document.getElementById('cookies').innerHTML=listCookies()
+    function listCookies()
+    {
+        var theCookies = document.cookie.split(';');
+        var aString = '';
+        for (var i = 1 ; i <= theCookies.length; i++)
+        {
+            aString += theCookies[i-1] + "<br>";
+        }
+        return aString;
+    }
+</script>

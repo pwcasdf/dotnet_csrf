@@ -1,0 +1,7 @@
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\samesitedemo.exe
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\samesitedemo.dll
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\samesitedemo.deps.json
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\samesitedemo.runtimeconfig.json
+D:\OneDrive\Documents\취업\microsoft\2차과제\demo\samesitedemo\samesitedemo\obj\Release\net6.0\win-x64\PubTmp\Out\samesitedemo.pdb

